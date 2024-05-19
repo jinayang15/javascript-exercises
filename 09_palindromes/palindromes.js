@@ -1,4 +1,4 @@
-const palindromes = function (str) {
+const palindromes = function () {
     str = str.toLowerCase().split(/[.!, ]/g).join("");
     let left = 0;
     let right = str.length-1;
@@ -8,6 +8,8 @@ const palindromes = function (str) {
         right--;
     }
     return true;
+};
+
 };
 
 // Do not edit below this line
